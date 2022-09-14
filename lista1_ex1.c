@@ -15,7 +15,7 @@ int main(){ //inicio do algoritmo
     int horas;
     printf("Digite a quantidade de horas: ");
     scanf("%d", &horas);
-    printf("Minutos: %d\n", horas * 60);
+    printf("Minutos: %d\n", horas * 60); //calculo no printf
     printf("Segundos: %d", horas * 3600);
 }
 

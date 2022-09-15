@@ -20,8 +20,4 @@ int main(){ //inicio do algoritmo
 }
 
 
-
-
-
-
 } //final do algoritmo

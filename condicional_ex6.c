@@ -5,16 +5,16 @@ int main(){
 
     printf("Digite o sexo e a altura:\n");
     scanf("%c%f", &sexo, &altura);
-    //m
+    
 
-    if (sexo == 'm' || sexo == 'M' || sexo == '1')
+    if (sexo == 'm' || sexo == 'M')
         {
             resultadoHomem = (72.7 * altura) - 58;
             printf("Resultado Homem: %.1f\n", resultadoHomem);
         }
-        else 
+        else if (sexo == 'f' || sexo == 'F')
         {
             resultadoMulher = (62.1 * altura) - 44.7;
             printf("Resultado Mulher: %.1f\n", resultadoMulher);
-        }
+        } else printf("Entrada invalida");
 }
